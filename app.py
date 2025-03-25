@@ -79,3 +79,7 @@ if st.session_state.previous_passwords:
         st.sidebar.code(prev_pwd, language="plaintext")
 else:
     st.sidebar.write("No previous passwords entered.")
+
+# Build by
+st.markdown("---")
+st.markdown("### 🚀 Build by: **Syed Ahsan**")
